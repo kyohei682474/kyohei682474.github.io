@@ -1,18 +1,32 @@
 body{
-  width: 960px;
-  padding:0 4% 0 4%; 
+  /* width: 960px; */
+  padding:0 4% 0 4%;
+  
 }
 /* header */
-
-
+header{
+  /* width: 960px; */
+  margin: 0 auto;
+}
+/* .main-visual{
+  justify-content: space-between;
+  align-items: center
+} */
 .container{
+  width: 960px;
   padding:0 4% 0 4%;
   display:flex;
-  justify-content: center;
-  align-items: baseline;
-  gap: 100px;
-  height: 55px;
+  /* justify-content: center; */
+  justify-content: space-between;
+  /* align-items: baseline; */
+  align-items: center;
+  /* height: 55px; */
+  margin: 0 auto;
+  /* 上記を追加 */
+ 
+  
 }
+
 .resume{
   color:white;
   text-align: center;
@@ -34,7 +48,8 @@ li {
   font-size: 10px;
 }
 .main-image{
-  width:100%;
+  /* width:auto; */
+  width: 100%;
   height:600px
   
 }
@@ -42,10 +57,18 @@ li {
 /* main */
 
 main{
-  width: 960px;
+  /* width: 960px; */
   padding:0 4% 0 4%;
   text-align: center;
   
+}
+
+section{
+  width: 960px;
+  margin: 0 auto;
+}
+.introduction{
+   
 }
 .intro-profile{
   text-decoration: underline;
@@ -80,8 +103,8 @@ main{
 
 /* footer */
 footer{
-  width: 960px;
-  padding:0 4% 0 4%;
+  /* width: 960px; */
+  /* padding:0 4% 0 4%; */
 }
 .copy{
   text-align: center;
@@ -109,5 +132,4 @@ footer{
   .profile-boxes{
     flex-direction: column;
   }
-}
 }
